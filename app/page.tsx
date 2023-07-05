@@ -20,7 +20,7 @@ export default async function Home() {
                 job={formattedResult[index].job}
                 address={formattedResult[index].address}
                 phoneNumber={formattedResult[index].phoneNumber}
-                className="h-60 w-full"
+                className="h-80 w-full"
               ></JobCard>
             );
           })}
